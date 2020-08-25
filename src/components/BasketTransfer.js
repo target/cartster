@@ -10,7 +10,8 @@ export default function transferBasket(lineItems) {
         headers: {
             "cache-control": "no-cache",
             "content-type": "application/json"
-        }
+        },
+        credentials: 'include'
     })
         .then(response => response.json())
         .then(data => {
@@ -34,6 +35,6 @@ export default function transferBasket(lineItems) {
         .then(response => response.json())
         .then(data => {
             console.log(data);
-            window.location.href = "https://www.target.com/co-cart?token=" + accessToken
+            window.location.href = "https://www.target.com/co-cart?token=" + accessToken;
         });
 }
