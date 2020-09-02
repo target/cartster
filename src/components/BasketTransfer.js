@@ -1,9 +1,12 @@
 export default function transferBasket(lineItems) {
-    let apiKey = "278110ec29dc09245d4ba97a9f1f6c8734838664"
-    let partnerName = "MINNIEAPPLE"
+    let apiKey = "278110ec29dc09245d4ba97a9f1f6c8734838664"  // required for API calls
+    let partnerName = "MINNIEAPPLE" // partner name is assigned to each external partner
     var accessToken
 
-    // get token
+    // this function:
+    // - Gets an auth token
+    // - Sends a request to add ingredient items to a cart
+    // - Re-directs to Target.com checkout page
     fetch("https://gsp.target.com/gsp/authorizations/v1/client_tokens", {
         method: "POST",
         body: JSON.stringify({client_name: partnerName}),

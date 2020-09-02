@@ -25,7 +25,8 @@ export default function IngredientsList({ list }) {
             </Table>
             <Button variant="danger"
                     style={{ marginBottom: "50px"}}
-                    onClick={() => transferBasket(lineItems)}>
+                    onClick={() => transferBasket(lineItems)}
+                    data-toggle="tooltip" title="Add items to cart and redirect to checkout">
                 Buy at Target!
             </Button>
         </div>
