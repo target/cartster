@@ -4,7 +4,7 @@ export default function Instructions({ title, steps }) {
     return (
         <section>
             <div className="instructions">
-                <h2>{title}</h2>
+                <h3>{title}</h3>
                 {steps.map((s, i) => (
                     <p key={i}>{s}</p>
                 ))}
