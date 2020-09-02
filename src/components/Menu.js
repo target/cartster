@@ -3,12 +3,13 @@ import Recipe from "./Recipe";
 import Tabs from "react-bootstrap/Tabs"
 import Tab from "react-bootstrap/Tab";
 import Button from "react-bootstrap/Button";
+import {Image} from "react-bootstrap";
 
 function Menu({ recipes }) {
     return (
         <div style={{width: "80%", marginLeft: "10%"}}>
             <div>
-                <h1>Basket Transfer Sample App</h1>
+                <Image style={{margin: "15px" }} src="./Bullseye.png" /><h1>Basket Transfer Sample App</h1>
                 <p>
                     This example application allows you to select a recipe and purchase the ingredients by submitting
                     the list of ingredients as a basket transfer to Target.com checkout.
