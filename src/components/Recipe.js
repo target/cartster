@@ -5,7 +5,7 @@ import Instructions from "./Instructions";
 function Recipe({ name, ingredients, steps }) {
     return (
         <section id={name.toLowerCase().replace(/ /g, "-")}>
-            <h1>{name}</h1>
+            <h2>{name}</h2>
             <IngredientsList list={ingredients} />
             <Instructions title="Cooking Instructions" steps={steps} />
         </section>
