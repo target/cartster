@@ -6,7 +6,7 @@ Developers looking for an example 'basket transfer' app using https://api.target
 
 ## What is a basket transfer?
 1. A user is viewing Target products on a non-Target domain.
-2. A user would like to 'buy' or 'add to cart' the item(s) they are viewing.
+2. A user adds to the cart the items they wish to buy.
 3. When the user is ready to checkout, they are redirected to target.com 
 4. The user lands on a target.com checkout page, payment is captured, and their products are shipped.
 
