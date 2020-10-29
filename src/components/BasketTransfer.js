@@ -1,10 +1,10 @@
 export default function transferBasket(lineItems) {
     // required for API calls
-    // this apiKey is subject to being revoked and changed at any time. 
+    // this apiKey is subject to being revoked and changed at any time.
     // do not reuse this apiKey
     // if you need an apiKey reach out to TTS-Digital-OPE-MPLS@Target.com
     let apiKey = "892df78add06fbe4bdac11646e00d9273f0aa6ea"
-    let partnerName = "MINNIEAPPLE" // partner name is assigned to each external partner
+    let partnerName = "cartster" // partner name is assigned to each external partner
     var accessToken
 
     // this function:
