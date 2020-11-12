@@ -1,5 +1,4 @@
 # Target Partner's Commerce Basket Transfer Example App
-Try it out **Comming Soon**!
 
 ## Who is this repo for?
 Developers looking for an example 'basket transfer' app using https://api.target.com/commerce_partners/v1/cart_items
