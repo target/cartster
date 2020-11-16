@@ -1,3 +1,5 @@
+![Build Status](https://github.com/target/cartster/workflows/Node.js%20CI/badge.svg)
+
 # Target Partner's Commerce Basket Transfer Example App
 
 ## Who is this repo for?
