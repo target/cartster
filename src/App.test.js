@@ -1,9 +1,10 @@
 import React from 'react';
 import { render } from '@testing-library/react';
 import App from './App';
+import {getAllByText} from "@testing-library/dom";
 
-test('renders learn react link', () => {
-  const { getByText } = render(<App />);
-  const linkElement = getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('renders buy at target link', () => {
+  const { getAllByText } = render(<App />);
+  const linkElements = getAllByText(/buy at target/i);
+  linkElements.forEach(e => expect(e).toBeInTheDocument());
 });
