@@ -1,4 +1,4 @@
-![Build Status](https://github.com/target/cartster/workflows/Node.js%20CI/badge.svg)
+![Build Status](https://github.com/target/cartster/workflows/Node.js%20CI/badge.svg?branch=master)
 
 # Target Partner's Commerce Basket Transfer Example App
 
