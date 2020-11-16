@@ -5,6 +5,6 @@ import {getAllByText} from "@testing-library/dom";
 
 test('renders buy at target link', () => {
   const { getAllByText } = render(<App />);
-  const linkElements = getAllByText(/buy at target/i);
+  const linkElements = getAllByText(/blarrrrrrgh/i);
   linkElements.forEach(e => expect(e).toBeInTheDocument());
 });
