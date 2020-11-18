@@ -21,7 +21,7 @@ function Menu({ recipes }) {
                 </p>
             </div>
             <div style={{marginTop: "25px", marginBottom: "25px"}}>
-                <Button variant="primary" href="https://git.target.com/off-platform-experience/cartster" target="_blank">View sample code in Github</Button>
+                <Button variant="primary" href="https://github.com/target/cartster" target="_blank">View sample code in Github</Button>
             </div>
             <div className="recipes">
                 <Tabs defaultActiveKey={recipes[0].name}>
