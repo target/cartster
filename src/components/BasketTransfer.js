@@ -44,6 +44,6 @@ export default function transferBasket(lineItems) {
         .then(response => response.json())
         .then(data => {
             console.log(data);
-            window.location.href = "https://www.target.com/co-cart?access+token="+accessToken;
+            window.location.href = "https://www.target.com/co-cart?access_token="+accessToken;
         });
 }
