@@ -8,7 +8,7 @@ export default function transferBasket(lineItems) {
     // This token url is not accessible to the public internet.
     // For more details on how to fetch your own basket transfer tokens, reach out to TTS-Digital-OPE-MPLS@Target.com
     let authTokenUrl = "https://cartstertapapi.dev.target.com/gsp/external_token/v1"
-    let partnersCommerceHost = "https://api.target.com/"
+    let partnersCommerceHost = "https://api.target.com"
     var accessToken
 
     // this function:
