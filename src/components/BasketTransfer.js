@@ -9,6 +9,7 @@ export default function transferBasket(lineItems) {
     // For more details on how to fetch your own basket transfer tokens, reach out to TTS-Digital-OPE-MPLS@Target.com
     let authTokenUrl = "https://cartstertapapi.dev.target.com/gsp/external_token/v1"
     let partnersCommerceHost = "https://api.target.com"
+    let defaultStoreId = "2200"
     var accessToken
 
     // this function:
@@ -31,7 +32,10 @@ export default function transferBasket(lineItems) {
             return fetch(partnersCommerceHost+"/commerce_partners/v1/cart_items", {
                 method: "POST",
                 body: JSON.stringify({
-                    cart_items: lineItems
+                    cart_items: lineItems,
+                    scheduled_delivery_fulfillment: {
+                      store_id: defaultStoreId
+                    }
                 }),
                 headers: {
                     "x-tgt-partner-name": partnerName,
